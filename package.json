@@ -5,7 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public",
+    "start": "dotnet watch run --project ./svelte-quotes.csproj",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
